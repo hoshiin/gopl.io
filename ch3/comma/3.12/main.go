@@ -12,7 +12,7 @@ func main() {
 }
 
 //!+
-// isAnagram returns whether args are anagrams or not .
+// isAnagram returns whether a is anagrams of b or not .
 func isAnagram(a, b string) bool {
 	if len(a) != len(b) {
 		return false
